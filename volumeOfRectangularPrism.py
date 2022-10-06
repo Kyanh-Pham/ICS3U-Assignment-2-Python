@@ -11,9 +11,9 @@ def main():
     print("This will calculate the volume of a rectangular prism or cube.")
 
     # Input
-    length = int(input("Enter the length (cm): "))
-    width = int(input("Enter the width (cm): "))
-    height = int(input("Enter the height (cm): "))
+    length = float(input("Enter the length (cm): "))
+    width = float(input("Enter the width (cm): "))
+    height = float(input("Enter the height (cm): "))
 
     # Process
     volume = length * width * height
